@@ -5,7 +5,13 @@
     <style type="text/css">
         .link_box{
             border-style:solid;border-width:2px;border-color: black;
-            height: 100px;width: 150px;display: inline-block;}
+            height: 100px;width: 150px;display: inline-block;
+        }
+        .link_box:hover{
+            border-style:solid;border-width:2px;border-color: black;
+            height: 95px;width: 149px;display: inline-block;
+            background-color: bisque;
+        }
         .link_text{
             text-align: center;color: black;font-size: 20px;
             line-height:100px;
@@ -13,17 +19,18 @@
         .link_text_a{
             text-decoration: none;
         }
+        .bottom_bar{
+            position: fixed;bottom: 0px;font-size: 10px;
+        }
     </style>
-    <script>
-        var baseurl=xiaonimo.github.io
-    </script>
+
 <title>首页</title>
 </head>
-<body>
+<body style="background-color:beige">
 <div><span>
     <center>
     <span style="font-size: 400%;color: black;align-items: left">
-        志同
+        <a href="post.html" style="text-decoration: none;color: black">志同</a>
     </span>
 
     <span style="font-size: 20px;color: black;align-items: center">
@@ -39,7 +46,7 @@
     <center>
         <div>
             <span><div class="link_box">
-                <a href="xiaonimo.github.io/post.html" class="link_text_a">
+                <a href="xiaonimo.github.io/category_list.html" class="link_text_a">
                     <div class="link_text">C++</div>
                 </a>
             </div></span>
@@ -85,15 +92,16 @@
             </div></span>
             <span><div class="link_box">
                 <a href="xiaonimo.github.io/post.html" class="link_text_a">
-                    <div class="link_text">关于作者</div>
+                    <div class="link_text">刷题笔记</div>
                 </a></div></span>
             <span><div class="link_box">
                 <a href="xiaonimo.github.io/post.html" class="link_text_a">
-                    <div class="link_text">网页游戏</div>
+                    <div class="link_text">经典人物</div>
                 </a>
             </div></span>
         </div>
     </center>
 </div>
+
 </body>
 </html>
