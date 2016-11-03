@@ -2,10 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>抢月饼</title>
-    <script type="text/javascript"
-            src="http://code.jquery.com/jquery-latest.js">
+    <script type="text/javascript">
+        $(function() {
+            $("#rush").click(function(){
+                alert("抢购成功");
+            })
+        })
     </script>
+    <title>抢月饼</title>
 </head>
 <body>
 <h1>抢月饼</h1>
@@ -13,11 +17,4 @@
     <button id="rush">点我抢购</button>
 </div>
 </body>
-<script type="text/javascript">
-    $(function() {
-        $("#rush").click(function(){
-            alert("抢购成功");
-        })
-    })
-</script>
 </html>
