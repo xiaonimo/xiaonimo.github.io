@@ -1,0 +1,1 @@
+setInterval(function(){document.querySelector("#rush").click();},1000);
