@@ -108,35 +108,36 @@
 </div>
 <hr>
 <div class="content_box">
-    <div class="list_div">
+    <!--<div class="list_div">-->
         <p class="list_title">
             20161102
         </p></a>
         <p class="list_text">
-            a.函数不可以嵌套定义，也就是说在函数内部不能定义函数<br>
-        </p>
-    </div>
-    <div class="list_div">
+            <li>函数不可以嵌套定义，也就是说在函数内部不能定义函数<br>
+        </p><hr>
+    <!--</div>
+    <div class="list_div">-->
         <p class="list_title">
             20161103
         </p>
         <p class="list_text">
-            a.C++中不能重载的运算符“.”“.*”“sizeof”“::”“?:”<br>
-            b.通过将类的析构函数设置为protected或者private可以现在静态创建对象<br>
-            c.通过将new操作符重载为私有函数，可以现在在堆上建立对象。<br>
-            d.int **p[3][4];//这是创建一个数组，数组的元素是 int **类型<br>
-            e.int **(*p)[4];//这是创建一个指针，指向d中创建的数组，
+            <li>C++中不能重载的运算符“.” “.*” “sizeof” “::” “?:”<br>
+            <li>通过将类的析构函数设置为protected或者private可以现在静态创建对象<br>
+            <li>通过将new操作符重载为私有函数，可以现在在堆上建立对象。<br>
+            <li>int** p[3][4];//这是创建一个数组，数组的元素是int**类型<br>
+            <li>int** (*p)[4];//这是创建一个指针，指向d中创建的数组，
             括号中的*表示p指针，括号外的双层**表示指针指向的数据的元素的类型<br>
-        </p>
-    </div>
-    <div class="list_div">
+        </p><hr>
+    <!--</div>
+    <div class="list_div">-->
         <p class="list_title">
-
+            20161104
         </p>
         <p class="list_text">
-
-        </p>
-    </div>
+            <li>#include "a.h" 搜索的路径包括：当前工作目录，系统默认目录
+            <li>#include<a.h/> 搜索路径是系统默认目录。在gcc编译时候，可以用-I参数指定多条路径
+        </p><hr>
+    <!--</div>-->
 </div>
 </body>
 </html>
